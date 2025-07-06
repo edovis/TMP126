@@ -17,4 +17,4 @@ Arduino library for [Texas Instruments TMP126 Temperature Sensor](https://www.ti
 - **getID2**: returns 16-bit Unique ID2 value
 - **getID3**: returns 16-bit Unique ID3 value
 - **getDevID**: returns 16-bit Device ID
-- **reset**: resets device anr return bool '0' if device does not respond or '1' if it does
+- **reset**: resets device and returns bool '0' if device does not respond or '1' if it does
