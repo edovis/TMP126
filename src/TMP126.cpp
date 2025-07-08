@@ -30,7 +30,7 @@ void TMP126::begin(uint16_t configValue)
   // Signals initial state
   digitalWrite(_CS, HIGH);
   digitalWrite(_SCLK, LOW);  // Data clocks into TMP126 on rising edge
-                            // Data clocks out of TMP126 on falling edge
+                             // Data clocks out of TMP126 on falling edge
   
   // Writes Configuration Register
   config(configValue);
