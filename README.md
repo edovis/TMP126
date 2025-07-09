@@ -2,7 +2,7 @@
 Arduino library for [Texas Instruments TMP126 Temperature Sensor](https://www.ti.com/lit/gpn/TMP126)
 
 >[!NOTE]
->*Basic funtions implemented just to deal with VC2000 OCXO project*
+>*Basic functions implemented just to deal with VC2000 OCXO project*
 
 ## Constructor
 - **`TMP126`**: CS, SI (MOSI), SO (MISO) and SCLK must be declared
