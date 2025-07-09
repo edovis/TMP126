@@ -9,7 +9,11 @@ Arduino library for [Texas Instruments TMP126 Temperature Sensor](https://www.ti
 
 ## List of functions
 - **`begin`**: initializes device with default configuration, unless custom one it's passed through its argument in HEX format
-  - *Default (0x0081): interrupt mode, continuous conversion mode, averaging enable, 31.25 ms (32 Hz) conversion period*
+  - `Default (0x0081)`:
+    - *Interrupt mode*
+    - *Continuous conversion mode*
+    - *Averaging enable*
+    - *31.25 ms (32 Hz) conversion period*
 - **`write`**: writes a 16-bit word to a single register
 - **`read`**: reads a 16-bit word from a single register
 - **`config`**: writes a custom 16-bit configuration word to Configuration Register
