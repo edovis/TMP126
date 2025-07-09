@@ -7,10 +7,11 @@ Arduino library for [Texas Instruments TMP126 Temperature Sensor](https://www.ti
 - **TMP126**: CS, SI (MOSI), SO (MISO) and SCLK must be declared
 
 ## List of functions
-- **begin**: initializes device with default configuration, unless custom one it's passed through its argument
+- **begin**: initializes device with default configuration, unless custom one it's passed through its argument in HEX format
+  - *Default (0x0081): interrupt mode, continuous conversion mode, averaging enable, 32 Hz*
 - **write**: writes a 16-bit word to a single register
 - **read**: reads a 16-bit word from a single register
-- **config**: writes a custom 16-bit configuration word to Configuration Register
+- **config**: writes a custom 16-bit (HEX) configuration word to Configuration Register
 - **getStatus**: returns bool '0' if device does not respond or '1' if it does
 - **getTemp**: returns temperature (float) in Celsius
 - **getID1**: returns 16-bit Unique ID1 value
